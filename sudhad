@@ -1,0 +1,24 @@
+1) jogar os arquivos para pasta public
+
+
+2)app layouts conteudo que vai ser incluido   yeld
+
+<body>
+    <main>
+        @yield('content')
+    </main>
+</body>
+
+
+2) onde vai ser incluido o yield @section endsection 
+
+@extends('layouts.app')
+
+@section('content')
+
+
+<aqui entra o corpo do html > 
+
+@endsection
+
+
